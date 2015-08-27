@@ -74,7 +74,7 @@ popsicle({
 * **timeout** The number of milliseconds to wait before aborting the request (default: `Infinity`)
 * **use** An array of plugins to be used (default: `[stringify, headers, parse]`)
 * **options** Raw options used by the transport layer (default: `{}`)
-* **transport** Override the transportation layer (default: `http.request/https.request` (node), `XMLHttpRequest` (brower))
+* **transport** Override the transportation layer (default: `http.request/https.request` (node), `XMLHttpRequest` (browser))
 
 **Options using node transport**
 
